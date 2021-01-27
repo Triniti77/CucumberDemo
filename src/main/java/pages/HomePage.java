@@ -6,7 +6,7 @@ import fragments.MainMenuFragment;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class HomePage {
+public class HomePage extends BasePage {
     private MainMenuFragment mainMenuFragment = new MainMenuFragment();
 
     private SelenideElement loginForm = $("form[name='frmLogin']");
